@@ -51,7 +51,7 @@ function autoClickers() {
 }
 
 setInterval(function() {
-    cps++;
+    cps += 1.0;
     cps *= 1.0;
     document.getElementById("cps").innerHTML = cps;
 }, 100);
