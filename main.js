@@ -25,6 +25,8 @@ for (let i = 0; i < localStorage.length; i++) {
     console.log(toString(localStorage));
 }
 
+localStorage
+
 // creating temp variables for localStorage
 console.log("loading... creating temp variables for localStorage")
 
