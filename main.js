@@ -27,7 +27,7 @@ for (let i = 0; i < localStorage.length; i++) {
 
 const items = { ...localStorage };
 
-console.log("DEBUG: Local Storage Contence: " + items);
+console.log("DEBUG: Local Storage Contence: " + toString(items));
 
 // creating temp variables for localStorage
 console.log("loading... creating temp variables for localStorage")
