@@ -22,8 +22,7 @@ if (localStorage.autoClicker == undefined) {localStorage.autoClicker = 0; cv++;}
 console.log("loading... creating localStorage variables, complete!")
 console.log("DEBUG: created " + String(cv) + " variables")
 for (let i = 0; i < localStorage.length; i++) {
-    console.log(localStorage.getItem(i));
-    
+    console.log(toString(localStorage));
 }
 
 // creating temp variables for localStorage
