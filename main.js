@@ -21,9 +21,9 @@ if (localStorage.autoClicker == undefined) {localStorage.autoClicker = 0; cv++;}
 
 console.log("loading... creating localStorage variables, complete!")
 console.log("DEBUG: created " + String(cv) + " variables")
-for (let i = 0; i < localStorage.length; i++) {
-    console.log(toString(localStorage));
-}
+//for (let i = 0; i < localStorage.length; i++) {
+//    console.log(toString(localStorage));
+//}
 
 const items = { ...localStorage };
 
@@ -45,3 +45,8 @@ function saveStorage() {
     localStorage.clickPower = clickPower;
     localStorage.autoClicker = autoClicker;
 }
+
+setInterval(function() {
+    cps++;
+    document.getElementById("cps").innerHTML = cps;
+}, 1000);
