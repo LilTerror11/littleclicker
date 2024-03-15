@@ -49,4 +49,4 @@ function saveStorage() {
 setInterval(function() {
     cps++;
     document.getElementById("cps").innerHTML = cps;
-}, 1000);
+}, 100);
