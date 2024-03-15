@@ -20,7 +20,7 @@ if (localStorage.clickPower == undefined) {localStorage.clickPower = 1; cv++;} /
 if (localStorage.autoClicker == undefined) {localStorage.autoClicker = 0; cv++;} // realy fast click generation
 
 console.log("loading... creating localStorage variables, complete!")
-console.log("DEBUG: created " + toString(cv) + " variables")
+console.log("DEBUG: created " + String(cv) + " variables")
 
 // creating temp variables for localStorage
 console.log("loading... creating temp variables for localStorage")
