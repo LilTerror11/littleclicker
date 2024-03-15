@@ -6,9 +6,9 @@ console.log("loading...");
 // temp variables
 console.log("loading... temp variables")
 
-let cv = 0 // Created Variables
+let cv = 0; // Created Variables
 
-let cps // Clicks Per Second
+let cps = 0; // Clicks Per Second
 
 console.log("loading... temp variables, complete!")
 
