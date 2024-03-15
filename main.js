@@ -27,8 +27,6 @@ for (let i = 0; i < localStorage.length; i++) {
 
 const items = { ...localStorage };
 
-console.log("DEBUG: Local Storage Contence: " + toString(items));
-
 // creating temp variables for localStorage
 console.log("loading... creating temp variables for localStorage")
 
@@ -41,3 +39,9 @@ console.log("loading... creating temp variables for localStorage, complete!")
 // functions
 
 console.log("loading... functions")
+
+function saveStorage() {
+    localStorage.money = money;
+    localStorage.clickPower = clickPower;
+    localStorage.autoClicker = autoClicker;
+}
