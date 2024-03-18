@@ -47,7 +47,7 @@ function saveStorage() {
 }
 
 function autoClickers() {
-    money += auto;
+    money += autoClickers;
 }
 
 setInterval(function() {
