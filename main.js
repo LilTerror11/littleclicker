@@ -43,7 +43,7 @@ console.log("loading... functions");
 function saveStorage() {
     localStorage.money = money;
     localStorage.clickPower = clickPower;
-    localStorage.autoClicker = autoClicker;
+    localStorage.autoClickers = autoClickers;
 }
 
 function autoClicker() {
