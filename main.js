@@ -32,7 +32,7 @@ console.log("loading... creating temp variables for localStorage");
 
 money = Number(localStorage.money);
 clickPower = Number(localStorage.clickPower);
-autoClicker = Number(localStorage.autoClickers);
+autoClickers = Number(localStorage.autoClickers);
 
 console.log("loading... creating temp variables for localStorage, complete!");
 
