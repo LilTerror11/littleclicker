@@ -57,4 +57,6 @@ setInterval(function() {
     document.getElementById("money").innerHTML = money;
 }, 100);
 
-setInterval(autoClickers(), 1000);
+setInterval(function() {
+    autoClickers();
+}, 1000);
