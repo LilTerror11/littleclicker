@@ -55,8 +55,12 @@ setInterval(function() {
     //cps *= 1.0;
     document.getElementById("cps").innerHTML = cps;
     document.getElementById("money").innerHTML = money;
+
+    cps = 0;
+
+    cps = autoClickers / 10;
 }, 100);
 
 setInterval(function() {
     autoClicker();
-}, 1000);
+}, 10000);
