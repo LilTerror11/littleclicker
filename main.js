@@ -17,7 +17,7 @@ console.log("loading... creating localStorage variables");
 
 if (localStorage.money == undefined) {localStorage.money = 0.0; cv++;} // clicks
 if (localStorage.clickPower == undefined) {localStorage.clickPower = 1; cv++;} // how much 'money' you get from a click
-if (localStorage.autoClicker == undefined) {localStorage.autoClicker = 0; cv++;} // realy fast click generation
+if (localStorage.autoClickers == undefined) {localStorage.autoClickers = 0; cv++;} // realy fast click generation
 
 console.log("loading... creating localStorage variables, complete!");
 console.log("DEBUG: created " + String(cv) + " variables");
@@ -32,7 +32,7 @@ console.log("loading... creating temp variables for localStorage");
 
 money = Number(localStorage.money);
 clickPower = Number(localStorage.clickPower);
-autoClicker = Number(localStorage.autoClicker);
+autoClicker = Number(localStorage.autoClickers);
 
 console.log("loading... creating temp variables for localStorage, complete!");
 
