@@ -47,7 +47,7 @@ function saveStorage() {
 }
 
 function autoClicker() {
-    money += autoClickers;
+    money += autoClickers/10;
 }
 
 setInterval(function() {
@@ -65,4 +65,4 @@ setInterval(function() {
 
 setInterval(function() {
     autoClicker();
-}, 10000);
+}, 1000);
