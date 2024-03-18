@@ -59,6 +59,8 @@ setInterval(function() {
     cps = 0;
 
     cps = autoClickers / 10;
+
+    saveStorage();
 }, 100);
 
 setInterval(function() {
