@@ -46,7 +46,7 @@ function saveStorage() {
     localStorage.autoClicker = autoClicker;
 }
 
-function autoClickers() {
+function autoClicker() {
     money += autoClickers;
 }
 
@@ -58,5 +58,5 @@ setInterval(function() {
 }, 100);
 
 setInterval(function() {
-    autoClickers();
+    autoClicker();
 }, 1000);
